@@ -1,4 +1,4 @@
-Proyecto vacío para aprender como utilizar Travis CI en PlatformIO
+#Proyecto vacío para aprender como utilizar Travis CI en PlatformIO [![Build Status](https://travis-ci.org/wifixcort/travis_test.svg?branch=master)](https://travis-ci.org/wifixcort/travis_test)
 
 Todo lo estoy haciendo desde PlatformIO, por lo que esté prepara el archivo de Travis
 de antemano junto con algunas configuraciones útiles.
@@ -22,3 +22,10 @@ el commit y push al repositorio de github
 Aunque el template #1 especifíca que los archivos deberían ser de python, cuando travis
 encuentre el main.cpp lo va a compilar como debe sin problemas(Recordar que platformio
   preparó algunas cosas por nosotros).
+
+Para añadir el icono al repositorio del estado del mismo, en la plataforma de Travis
+hacer click en la imagen de "build|passing" (Si ya logramos hacer que pasara correctamente),
+nos aparecerá un "Pop-Up" con la palabra "Status Image", elegimos el branche al que
+se lo queremos aplicar y nos genera el link que necesitamos.
+
+Copiamos y pegamos ese link junto al titulo del readme.md como aparece en este repositorio
